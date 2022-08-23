@@ -406,7 +406,7 @@ viper.BindFlagValues("my-flags", fSet)
 To enable remote support in Viper, do a blank import of the `viper/remote`
 package:
 
-`import _ "github.com/spf13/viper/remote"`
+`import _ "github.com/bsdgo/viper/remote"`
 
 Viper will read a config string (as JSON, TOML, YAML, HCL or envfile) retrieved from a path
 in a Key/Value store such as etcd or Consul.  These values take precedence over
